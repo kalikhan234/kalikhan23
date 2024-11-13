@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-box{
+    width: 200px;
+    height: 500px;
+    border-radius: 40px;
+    margin: 10px;
+    transition: 0.5s;
+    background-image: url(IMGE/futuristic-set-with-dj-charge-music-using-virtual-reality-glasses.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imge-box:nth-child(2){
+    background-image: url(IMGE/mohammad-rahmani-gA396xahf-Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+    width: 200px;
+}
+.imge-box:nth-child(3){
+    background-image: url(IMGE/neon-geometric-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    margin-bottom: 60pxS;
+}
+.imge-box:nth-child(4){
+    background-image: url(IMGE/mohammad-rahmani-gA396xahf-Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+}
+.imge-box:nth-child(5){
+    background-image: url(neon-geometric-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+}
+.imge-box h3{
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    margin-top: 200px;
+ text-align: center;
+}
+.imge-box:hover{
+    width: 400px;
+    cursor: pointer;
+    transform: scale(50%);
+}
